@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # PURPOSE: Sim_weighted_MMSE
 
-lib_path <- "/exports/cmvm/eddie/smgphs/groups/eddie_igmm_nicodemus/Onyeka_Rlib"
+lib_path <- "/Onyeka_Rlib"
 .libPaths(lib_path)
 
 library(dplyr); library(tidyr); library(MASS); library(Matrix); library(lme4)
