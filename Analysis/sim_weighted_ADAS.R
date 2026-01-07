@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # PURPOSE: Executes the Monte Carlo simulation to evaluate the Weighted Biomarker Panel using ADAS-Cog as the primary clinical endpoint 
 
-lib_path <- "/exports/cmvm/eddie/smgphs/groups/eddie_igmm_nicodemus/Onyeka_Rlib"
+lib_path <- "/Onyeka_Rlib"
 .libPaths(lib_path)
 
 # Libraries
