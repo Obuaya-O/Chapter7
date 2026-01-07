@@ -1,4 +1,4 @@
-# Cleaning and Merging ADNI Datasets to Create Master Longitudinal Cohort
+# Merging ADNI Datasets to Create Master Longitudinal Cohort
 # Data is available at: https://adni.loni.usc.edu/
 
 # Packages
@@ -56,3 +56,4 @@ cat("Final Rows:       ", nrow(master_longitudinal_cohort), "\n")
 
 # Save dataset
 write_csv(master_longitudinal_cohort, "adni_master_longitudinal_cohort.csv")
+
