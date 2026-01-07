@@ -1,5 +1,5 @@
 # setup_params.R
-# PURPOSE: Define the 81 Scenarios for the Thesis Simulation
+# PURPOSE: Define the 81 Scenarios for the simulation
 # 1. Sample Size (3 levels)
 # 2. Effect Size (Null, Medium=25%, Large=50%)
 # 3. Correlation Level (Real, Moderate=0.4, Strong=0.6)
