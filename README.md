@@ -3,7 +3,7 @@
 ## Overview
 This repository contains the R code and simulation scripts for **Chapter 7: Developing and evaluating a model to identify and prioritise candidate surrogate outcomes for Alzheimer's disease clinical trials**.
 
-The purpose of this study was to evaluate whether a  **Multibiomarker Panel** (combining amyloid PET, tau PET, vMRI and fluid biomarkers) provides superior predictive validity for cognitive decline compared to a single-biomarker benchmark (amyloid PET alone). Using a Monte Carlo simulation framework, we generated synthetic clinical trial data to assess surrogate performance under varying conditions of sample size, effect size and missing data mechanisms.
+The purpose of this study was to evaluate whether a Multibiomarker Panel (combining amyloid PET, tau PET, vMRI and fluid biomarkers) provides superior predictive validity for cognitive decline compared to a single-biomarker benchmark (amyloid PET alone). Using a Monte Carlo simulation framework, we generated synthetic clinical trial data to assess surrogate performance under varying conditions of sample size, effect size and missing data mechanisms.
 
 ## Key Findings
 * **Surrogacy:** The weighted multibiomarker panel achieved a trial-level $R^2 \approx 0.25$, significantly outperforming the single-biomarker benchmark ($R^2 < 0.05$).
@@ -12,13 +12,14 @@ The purpose of this study was to evaluate whether a  **Multibiomarker Panel** (c
 
 ## Repository Structure
 
-### 1. Data Generation (`/DGM`)
+### 1. Data Generation 
 Scripts to generate synthetic subject-level data based on parameters derived from the Alzheimer's Disease Neuroimaging Initiative and Phase III clinical trials.
 
-### 2. Analysis (`/analysis`)
+### 2. Analysis 
 Scripts to fit Linear Mixed-Effects Models (`lme4`) and calculate trial-level surrogacy ($R^2_{trial}$).
 
-### 3. Results (`/output`)
+### 3. Results 
+Full result files
 
 ## Dependencies
 The simulation relies on the following R packages:
